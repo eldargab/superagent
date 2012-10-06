@@ -4,5 +4,9 @@
   "description": "awesome http requests",
   "version": "0.9.4",
   "keywords": ["http", "ajax", "request", "agent"],
-  "main": "lib/superagent.js"
+  "dependencies": {
+    "component/emitter": "*"
+  },
+  "main": "lib/superagent.js",
+  "scripts": ["lib/superagent.js"]
 }
